@@ -2,8 +2,6 @@
 
 Este proyecto demuestra el uso de **clases genéricas** en Java, que es como tener una caja mágica que puede guardar cualquier cosa. En este caso, implementé dos clases genéricas: un repositorio para almacenar elementos y una clase para manejar pares de clave-valor. La idea es mostrar cómo podemos manejar diferentes tipos de datos sin tener que crear clases separadas para cada tipo. 
 
-Si alguna vez has trabajado con colecciones en Java, ¡te va a encantar cómo los genéricos lo hacen más fácil y limpio!
-
 ---
 
 ## ¿Qué son los datos genéricos? 
@@ -43,3 +41,12 @@ Repositorio<String> repoDeStrings = new Repositorio<>();
 repoDeStrings.agregar("Hola");
 repoDeStrings.agregar("Mundo");
 System.out.println(repoDeStrings.obtenerTodos());  // Salida: [Hola, Mundo]
+
+---
+
+### Explicación de la sección "Fuentes Consultadas":
+
+1. La **documentación oficial de Java** sobre genéricos y colecciones.
+2. Enlaces a tutoriales de **GeeksforGeeks** y **TutorialsPoint**, que son recursos populares para aprender sobre genéricos en Java.
+
+De esta forma, se proporciona un contexto adicional sobre los conceptos y ejemplos utilizados en el proyecto.
