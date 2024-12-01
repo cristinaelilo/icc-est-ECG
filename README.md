@@ -41,12 +41,3 @@ Repositorio<String> repoDeStrings = new Repositorio<>();
 repoDeStrings.agregar("Hola");
 repoDeStrings.agregar("Mundo");
 System.out.println(repoDeStrings.obtenerTodos());  // Salida: [Hola, Mundo]
-
----
-
-### Explicación de la sección "Fuentes Consultadas":
-
-1. La **documentación oficial de Java** sobre genéricos y colecciones.
-2. Enlaces a tutoriales de **GeeksforGeeks** y **TutorialsPoint**, que son recursos populares para aprender sobre genéricos en Java.
-
-De esta forma, se proporciona un contexto adicional sobre los conceptos y ejemplos utilizados en el proyecto.
